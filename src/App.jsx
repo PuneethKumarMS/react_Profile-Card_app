@@ -1,18 +1,20 @@
 import React from "react"; 
 import ProfileCard from "./components/profileCard"; 
 import "./App.css"; 
-import image from "./assets/puneeth-rajkumar_9.jpg"; 
+import image from "./assets/puneeth-rajkumar_9.jpg"; //image file
  
 function App() { 
   return ( 
     <div className="card-container"> 
-      <ProfileCard 
+      
+     <ProfileCard 
         name="Ashwini" 
         image={image} 
         bio="Passionate React developer with a knack for building responsive and 
 interactive user interfaces." 
         bgColor="lightblue" 
       /> 
+     
       <ProfileCard 
         name="Pooja" 
         image={image} 
@@ -23,5 +25,4 @@ being and safety. Ready to assist and make your journey a pleasant one."
     </div> 
   ); 
 } 
- 
 export default App; 
