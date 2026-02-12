@@ -11,7 +11,7 @@ function App() {
         name="Ashwini" 
         image={image} 
         bio="Passionate React developer with a knack for building responsive and 
-interactive user interfaces." 
+        interactive user interfaces." 
         bgColor="lightblue" 
       /> 
      
@@ -19,7 +19,7 @@ interactive user interfaces."
         name="Pooja" 
         image={image} 
         bio="Friendly and professional air hostess committed to passenger well
-being and safety. Ready to assist and make your journey a pleasant one." 
+        being and safety. Ready to assist and make your journey a pleasant one." 
         bgColor="lightgreen" 
       /> 
     </div> 
